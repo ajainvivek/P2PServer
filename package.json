@@ -1,0 +1,17 @@
+{
+  "name": "p2pdrop",
+  "version": "1.0.0",
+  "description": "service layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajain Vivek <ajainvivek07@gmail.com> (http://chaicode.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "jade": "^1.11.0"
+  }
+}
