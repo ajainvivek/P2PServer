@@ -9,8 +9,10 @@
   "author": "Ajain Vivek <ajainvivek07@gmail.com> (http://chaicode.com)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "express-mailer": "^0.3.0",
+    "firebase": "^2.4.2",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.0.6",
     "jade": "^1.11.0"
