@@ -54,7 +54,8 @@ app.post('/email', function (req, res) {
     if (err) {
       // handle error
       res.send({
-        status : "fail"
+        status : "fail",
+        error : err
       });
       return;
     }
