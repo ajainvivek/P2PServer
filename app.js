@@ -43,11 +43,12 @@ var getUID = function () {
 
 app.post('/email', function (req, res) {
   var uid = req.body.uid;
+  var email = req.body.email;
   var guid = getUID();
   var verificationCodeRef = new Firebase('https://p2pdrop.firebaseio.com/users/' + uid + '/verificationCode');
 
   app.mailer.send('email', {
-    to: 'ajainvivek07@gmail.com', // REQUIRED. This can be a comma delimited string just like a normal email to field.
+    to: email, // REQUIRED. This can be a comma delimited string just like a normal email to field.
     subject: 'Verfication Code', // REQUIRED.
     verificationCode: guid // All additional properties are also passed to the template as local variables.
   }, function (err) {
