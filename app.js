@@ -14,7 +14,7 @@ mailer.extend(app, {
   transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
   auth: {
     user: 'p2pdrop@gmail.com',
-    pass: 'ajay2@tilak'
+    pass: ''
   }
 });
 
